@@ -58,6 +58,13 @@ header nav a:hover{
     margin-bottom: 40px;
 }
 
+.filme-principal .container{
+    width: 70%;
+}
+.container{
+    margin-left: 30px;
+}
+
 .titulo {
     font-size: 40px;
     margin-top: 15%;
@@ -83,4 +90,12 @@ header nav a:hover{
 
 .botao i {
     margin-right: 8px;
+}
+
+/*Configurações imagens carrosel*/
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
