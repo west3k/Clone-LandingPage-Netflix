@@ -15,7 +15,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial','Times New Roman', Times, serif;
     color: white;
 }
 
@@ -44,7 +44,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-rm.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capas/capa-rm.jpg');
     background-size: cover;
     height: 400px;
     display: flex;
@@ -98,4 +98,9 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    width: 98%;
+    margin: 10px auto;
 }
