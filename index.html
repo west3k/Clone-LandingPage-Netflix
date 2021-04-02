@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <!--resposividade-->
+    <link rel="stylesheet" href="./style/responsive.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">RICK AND MORTY</h3>
+                <p class="descricao">Rick é um velho mentalmente desequilibrado, mas cientificamente talentoso que se
+                    reconectou
+                    recentemente com sua família. Ele passa a maior parte do tempo envolvendo o jovem neto Morty em
+                    aventuras perigosas e estranhas no espaço e em universos alternativos. Compostos à vida familiar já
+                    instável de Morty, esses eventos causam muito sofrimento a Morty em casa e na escola.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA</button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <a class="item" href="#" onclick="changeToBlackClover()">
+                <img src="img/blackclover-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToBadBoys()">
+                <img src="img/badboys-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToRickMorty()">
+                <img src="img/capa-rm2.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToBurrasNada()">
+                <img src="img/deburrasnada-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToWandaVision()">
+                <img src="img/wandavision-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToTomJerry()">
+                <img src="img/tomejerry-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToTenet()">
+                <img src="img/tenet-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToSupermanLois()">
+                <img src="img/superman-capa.jpg" alt="">
+            </a>
+            <a class="item " href="#" onclick="changeToShingeki()">
+                <img src="img/shingeki-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToMulherMaravilha()">
+                <img src="img/mulhermaravilha-capa.jpg" alt="">
+            </a>
+            <a class="item" href="#" onclick="changeToJujustu()">
+                <img src="img/jujustu-capa.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/36abf07d6c.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+
+</html>
